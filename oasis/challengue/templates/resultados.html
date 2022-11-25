@@ -5,6 +5,7 @@
 <br>
 <div class="container">
   <figure class="text-center">
+    {% for dep in dep %}
   <blockquote class="blockquote">
     <h1 figure class="text-center text-primary"><strong>OASIS CHALLENGUE</strong></h1>
     <h2 figure class="text-center text-primary">CATEGORIA = {{dep.Categoria}}</h2>
@@ -12,7 +13,7 @@
 </figure>
 </div>
 
-{% for dep in dep %}
+
 <div class="container">
   <table class="table table-bordered">
   <thead>
