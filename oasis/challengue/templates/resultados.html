@@ -12,19 +12,24 @@
 </div>
 
 
+
+<br>
 <div class="container">
-    {% for dep in dep %}
+    <a class="btn btn-primary btn-lg" href="/ " role="button">Volver</a>
+    <br>
+    <br>
+
+    
   <table class="table table-bordered">
   <thead>
     <tr>
-      <th scope="col">Posicion</th>
       <th scope="col">Deportista</th>
       <th scope="col">Puntos</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+    {% for dep in dep %}
       <td>{{dep.Nombre_apellidos}}</td>
       <td>{{dep.Puntos}}</td>
     </tr>
