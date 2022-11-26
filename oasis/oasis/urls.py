@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', oasisViews.home ),
     path('resultados', oasisViews.pagina ),
+    path('horarios', oasisViews.horarios ),
 ]
